@@ -1,0 +1,24 @@
+{
+  "originHash" : "3d56781d5a0b4ae9ec5d7063918d541657b4fbe0d13d7c1dede8d31112e0a0a3",
+  "pins" : [
+    {
+      "identity" : "deckui",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:Arclite/DeckUI.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "897940ba3dee99955212500c914de7749ca3101c"
+      }
+    },
+    {
+      "identity" : "splash",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/johnsundell/Splash.git",
+      "state" : {
+        "revision" : "7f4df436eb78fe64fe2c32c58006e9949fa28ad8",
+        "version" : "0.16.0"
+      }
+    }
+  ],
+  "version" : 3
+}
