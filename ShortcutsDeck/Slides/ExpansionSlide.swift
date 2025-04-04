@@ -10,13 +10,12 @@ import SwiftUI
 
 struct ExpansionSlide: SlideProvider {
     let slide = Slide {
-        Title("What (Else) are AppIntents?")
-        Bullets {
+        Title("What (Else) are AppIntents Used For?")
+        Bullets(style: .dash) {
             Words("Configuring Widgets")
             Words("Custom Control Center Items")
             Words("Interactive Widgets")
             Words("Interactive Live Activities")
-            Words("Apple Intelligence")
             Words("Spotlight Actions")
             Words("Hardware Interactions")
             Words("Focus Filters")

@@ -18,22 +18,28 @@ struct FocusSlide: SlideProvider {
                     Words("Users can set parameters per Focus.")
                     Words("Conform to `SetFocusFilterIntent`.")
                 }
-            }
-            Column {
                 Code(.swift, enableHighlight: true) {
                     #"""
-                    struct ExampleFocusFilterIntent: SetFocusFilterIntent {
-                        @Parameter(title: "Use Dark Mode", default: false)
-                        var alwaysUseDarkMode: Bool
+                    struct NoirFocusFilterIntent: SetFocusFilterIntent {
+                        @Parameter(title: "Enabled", default: .auto)
+                        var isEnabled: EnabledEntity
 
-                        @Parameter(title: "Status Message")
-                        var status: String?
-
-                        @Parameter(title: "Selected Account")
-                        var account: AccountEntity?
+                        @Parameter(title: "Theme")
+                        var theme: ThemeEntity?
+                    }
+                    
+                    enum EnabledEntity: AppEnum {
+                        case auto, on, off
+                    }
+                    
+                    enum ThemeEntity: AppEnum {
+                        case dark, black, gray, sepia
                     }
                     """#
                 }
+            }
+            Column {
+                Media(.assetImage("Focus"))
             }
         }
     }

@@ -11,7 +11,7 @@ import SwiftUI
 struct DesignSlide: SlideProvider {
     let slide = Slide {
         Title("What Should Be an AppIntent?")
-        Bullets {
+        Bullets(style: .dash) {
             Words("Short Answer: Everything.")
             Words("Long Answer: Every atomic action a user might take in your app should be represented by **some** app intent.")
             Words("Helps the system understand what users are doing and surface those actions later.")

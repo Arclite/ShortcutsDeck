@@ -17,11 +17,11 @@ struct BuildingSlide: SlideProvider {
                 static let title: LocalizedStringResource = "CodeIntent.title"
                 static let description: IntentDescription = "CodeIntent.description"
             
-                @Parameter(title: "CodeIntent.code")
-                var code: BarcodeEntity
-            
                 @Parameter(title: "CodeIntent.hasBackground", default: true)
                 var hasBackground: Bool
+            
+                @Parameter(title: "CodeIntent.code")
+                var code: BarcodeEntity
             
                 static var parameterSummary: some ParameterSummary {
                     Summary("CodeIntent.parameterSummary\(\.$code)") {

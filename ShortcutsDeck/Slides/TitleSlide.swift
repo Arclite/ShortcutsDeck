@@ -10,7 +10,7 @@ import SwiftUI
 
 struct TitleSlide: SlideProvider {
     let slide = Slide(alignment: .center) {
-        Title("AppIntents", subtitle: "More Useful Than You Think")
+        Title("AppIntents", subtitle: "Why You Should Use Them… Even Now")
     }
 }
 

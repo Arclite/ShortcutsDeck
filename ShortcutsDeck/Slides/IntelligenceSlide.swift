@@ -13,8 +13,8 @@ struct IntelligenceSlide: SlideProvider {
         Title("Apple Intelligence")
         Columns {
             Column {
-                Bullets {
-                    Words("Still coming in the future, but we know **some** stuff.")
+                Bullets(style: .dash) {
+                    Words("Still coming in the future… probably? Here’s what we know now:")
                     Words("`AppIntent`s need to adopt specific “domains” representing their functionality.")
                     Words("Available domains are: Books, Browser, Camera, Document Reader, File Management, Journaling, Email, Photos & Videos, Presentations, Spreadsheets, Search, Whiteboard, and Word Processing")
                     Words("Each domain has a set of defined actions.")

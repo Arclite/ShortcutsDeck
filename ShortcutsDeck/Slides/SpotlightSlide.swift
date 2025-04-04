@@ -10,7 +10,7 @@ import SwiftUI
 
 struct SpotlightSlide: SlideProvider {
     let slide = Slide {
-        Title("Spotlight Actions")
+        Title("Spotlight Actions (aka “App Shortcuts”)")
         Columns {
             Column {
                 Bullets {

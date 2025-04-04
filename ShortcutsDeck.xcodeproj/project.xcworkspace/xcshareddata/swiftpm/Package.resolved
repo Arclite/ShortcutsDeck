@@ -1,15 +1,5 @@
 {
-  "originHash" : "3d56781d5a0b4ae9ec5d7063918d541657b4fbe0d13d7c1dede8d31112e0a0a3",
   "pins" : [
-    {
-      "identity" : "deckui",
-      "kind" : "remoteSourceControl",
-      "location" : "git@github.com:Arclite/DeckUI.git",
-      "state" : {
-        "branch" : "main",
-        "revision" : "897940ba3dee99955212500c914de7749ca3101c"
-      }
-    },
     {
       "identity" : "splash",
       "kind" : "remoteSourceControl",
@@ -20,5 +10,5 @@
       }
     }
   ],
-  "version" : 3
+  "version" : 2
 }

@@ -11,8 +11,8 @@ import SwiftUI
 struct IntroSlide: SlideProvider {
     let slide = Slide() {
         Title("What are AppIntents?")
-        Bullets {
-            Words("Used to build actions and automations in the Shortcuts app.")
+        Bullets(style: .dash) {
+            Words("AppIntents expose actions from your app to the wider operating system.")
             Words("Defined completely in Swift (and **only** Swift) code.")
             Words("Consume parameters (strings, files, numbers, etc.).")
             Words("Perform actions.")

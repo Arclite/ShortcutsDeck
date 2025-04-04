@@ -8,16 +8,15 @@
 import DeckUI
 import SwiftUI
 
-struct WidgetsSlide: SlideProvider {
+struct WidgetConfigurationSlide: SlideProvider {
     let slide = Slide {
-        Title("Widgets & Live Activities")
+        Title("Configuring Widgets")
         Columns {
             Column {
                 Bullets(style: .dash) {
                     Words("Used for configuration of “basic” widgets.")
                     Words("Conform to `WidgetConfigurationIntent`.")
-                    Words("Or add interactivity to interactive widgets.")
-                    Words("Interactivity uses standard `AppIntent`s.")
+                    Words("Parameters are displayed in widget picker.")
                 }
             }
             Column {
@@ -38,9 +37,6 @@ struct WidgetsSlide: SlideProvider {
                         )
                         public var code: BarcodeEntity?
                     }
-                    
-                    // In a view…
-                    Button(intent: CodeIntent(code: selectedCode))
                     """#
                 }
             }
@@ -49,5 +45,5 @@ struct WidgetsSlide: SlideProvider {
 }
 
 #Preview {
-    SlidePreviewer(WidgetsSlide())
+    SlidePreviewer(WidgetConfigurationSlide())
 }

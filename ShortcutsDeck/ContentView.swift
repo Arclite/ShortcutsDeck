@@ -17,6 +17,8 @@ struct ContentView: View {
         Deck(title: "AppIntents") {
             TitleSlide().slide
             IntroSlide().slide
+            UsesSlide().slide
+            UsesSlideTwo().slide
             ExpansionSlide().slide
             DesignSlide().slide
             BuildingSlide().slide
@@ -25,9 +27,11 @@ struct ContentView: View {
             ShortcutsSlideTwo().slide
             ShortcutsSlideThree().slide
             ShortcutsSlideFour().slide
-            WidgetsSlide().slide
             IntelligenceSlide().slide
+            WidgetConfigurationSlide().slide
+            WidgetInteractivitySlide().slide
             SpotlightSlide().slide
+            HardwareSlide().slide
             FocusSlide().slide
             ConclusionSlide().slide
         }

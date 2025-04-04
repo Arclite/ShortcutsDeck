@@ -10,6 +10,7 @@ import SwiftUI
 
 struct ConclusionSlide: SlideProvider {
     let slide = Slide(alignment: .center) {
+        Media(.assetImage("Talks Code"), maximumSize: CGSize(width: 320, height: 390))
         Title("Fin.", subtitle: "Any Questions?")
     }
 }

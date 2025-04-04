@@ -11,6 +11,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0487BE9C2D9ABD3000B35ACA /* DeckUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DeckUI; path = "/Users/pado/Developer/Ω Open Source/DeckUI"; sourceTree = "<absolute>"; };
 		049FC26E2C77C5C700B90DBE /* ShortcutsDeck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShortcutsDeck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -39,6 +40,7 @@
 			children = (
 				049FC2702C77C5C700B90DBE /* ShortcutsDeck */,
 				049FC26F2C77C5C700B90DBE /* Products */,
+				0487BE9C2D9ABD3000B35ACA /* DeckUI */,
 			);
 			sourceTree = "<group>";
 		};
